@@ -1,0 +1,14 @@
+name: 'Ebook convert action'
+description: 'GitHub Action for converting ebooks to several formats'
+inputs:
+  in:
+    description: File to be converted
+    required: true
+  out:
+    description: Converted file
+    required: true
+  args:
+    description: Additional arguments
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
