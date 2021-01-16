@@ -1,5 +1,7 @@
 # ebook-convert-action
 
+![Ebook convert test](https://github.com/jensvog/ebook-convert-action/workflows/Ebook%20convert%20test/badge.svg)
+
 GitHub Action for converting ebooks in several formats. The action is based on [Calibre's](https://calibre-ebook.com) converting function `ebook-convert`. For more information about the supported formats, available options and practical hints, please refer to the [documentation](https://manual.calibre-ebook.com/generated/en/ebook-convert.html). The GitHub action sets up a Docker image with Calibre installed in which the document gets converted.
 
 # Supported formats
