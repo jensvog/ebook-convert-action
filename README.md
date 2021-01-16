@@ -34,7 +34,7 @@ The output file format is guessed based on the output file extension.
 
 # Example
 
-This example take a PDF document from a repository and converts it to an EPUB file. Afterwards this file is stored as an artifact.
+This example takes a PDF document from a repository and converts it to an EPUB file. Afterwards this file is stored as an artifact.
 
 ```yaml
 name: EBook conversion
