@@ -2,6 +2,14 @@
 
 GitHub Action for converting ebooks in several formats. The action is based on [Calibre's](https://calibre-ebook.com) converting function `ebook-convert`. For more information about the supported formats, available options and practical hints, please refer to the [documentation](https://manual.calibre-ebook.com/generated/en/ebook-convert.html). The GitHub action sets up a Docker image with Calibre installed in which the document gets converted.
 
+# Supported formats
+
+The action supports conversions between many file types i.e.:
+
+DOCX, EPUB, HTML, PDF, RTF, TXT...
+
+For the full list see the [documentation](https://manual.calibre-ebook.com/generated/en/ebook-convert.html).
+
 # Usage
 
 In order to use the action, it must be integrated to the workflow:
