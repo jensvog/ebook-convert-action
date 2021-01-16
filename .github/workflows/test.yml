@@ -1,0 +1,19 @@
+name: Ebook convert test
+
+on: [push, pull_request]
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Convert ebook
+        uses: ./
+        with:
+          in: test/test.txt
+          out: test/book.epub
+      - name: Upload
+        uses: actions/upload-artifact@master
+        with:
+          name: Book
+          path: test/book.epub
